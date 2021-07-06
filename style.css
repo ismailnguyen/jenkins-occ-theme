@@ -1,0 +1,91 @@
+#breadcrumbs {
+    list-style-type: none;
+    background: #ffcb00;
+    padding: 0 0 0 8px;
+    margin: 0;
+    height: 2em;
+    border-bottom: .0625rem solid #ccc;
+    display:block;
+}
+
+#header {
+  background-color: white;
+  height: 50px;
+  border-top: .375rem solid #ffcb00;
+}
+
+
+#jenkins-home-link {
+  position: absolute;
+  height: 36px;
+}
+
+
+#visible-am-button {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: black;
+    color: #fff;
+    margin: 0;
+    line-height: 40px;
+    text-decoration: none;
+    min-width: 2em;
+    display: inline-block;
+    position: relative;
+    transition: all .1s;
+}
+#visible-am-button:hover, #visible-am-button:focus, #visible-am-button:active {
+    background: #ffcb00;
+}
+
+#header .login {
+  position: relative;
+  top: 6px;
+  color: black;
+  margin-right: 10px;
+}
+#header .login a, #header .login a:visited {
+  color: black;
+  text-decoration: none;
+  font-weight: 300;
+}
+a:link, a:visited {
+  text-decoration: none;
+  color: black;
+}
+.tabBar .tab a.addTab {
+  font-weight: bold;
+  color: #ffcb00;
+  border: 1px solid #ccc;
+  border-bottom: none;
+  border-radius: 0;
+}
+
+.pane-frame {
+  border: solid 3px #ffcb00;
+  border-radius: 4px;
+}
+table.pane {
+  width: 100%;
+  border-collapse: collapse;
+  border: .0625rem solid #ccc;
+  border: 1px #bbb solid;
+}
+div.pane-header {
+  font-weight: bold;
+  padding-right: 24px;
+  background: white;
+  text-transform: uppercase;
+}
+
+.bigtable th {
+  font-weight: bold;
+  border: none;
+  background-color: white;
+  padding: 6px 4px;
+  white-space: nowrap;
+}
+#jenkins-name-icon {
+    content:url("https://img.loccitane.com/ocms/img/occ2016/logo.svg");
+}
