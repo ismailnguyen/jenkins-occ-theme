@@ -16,6 +16,10 @@ html, body, table, form, input, td, th, p, textarea, select,
     border-bottom: .0625rem solid #ccc;
 }
 
+#breadcrumbs LI A:link, #breadcrumbs LI A:visited {
+    color: #001022;
+}
+
 #search-box {
     box-shadow: none;
     border-top: 0;
