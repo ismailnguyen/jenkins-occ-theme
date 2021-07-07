@@ -7,14 +7,13 @@ html, body, table, form, input, td, th, p, textarea, select,
     color: #001022;
 }
 
+#page-head {
+    box-shadow: rgb(0 0 0 / 42%) 0 0 5.4rem;
+}
+
 #breadcrumbs {
-    list-style-type: none;
     background: #ffcb00;
-    padding: 0 0 0 8px;
-    margin: 0;
-    height: 2em;
     border-bottom: .0625rem solid #ccc;
-    display:block;
 }
 
 #search-box {
@@ -35,7 +34,7 @@ html, body, table, form, input, td, th, p, textarea, select,
 }
 
 #header .login {
-    float: right;
+    float: right !important;
 }
 
 #header .searchbox, #header .login {
