@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:300,400,400i,500,500i,600,700&amp;subset=latin-ext');
 @import url('https://fonts.googleapis.com/css?family=Martel:300,400,700,800');
-html, body, table, form, input, td, th, p, textarea, select {
+html, body, table, form, input, td, th, p, textarea, select,
+#jenkins .yui-button .btn, #jenkins .yui-button button {
     font-family: Raleway,Arial,Sans-serif;
     font-size: 16px;
     color: #001022;
@@ -121,39 +122,39 @@ div.pane-header {
 }
 
 #pipeline-box .table-box tr.header th {
-    border-bottom: .125rem solid #001022;
-    border-bottom: 0;
-    border-right: 0;
-    border-left: 0;
-    border-top: .125rem solid #001022;
-    background: white;
+    border-bottom: .125rem solid #001022 !important;
+    border-bottom: 0 !important;
+    border-right: 0 !important;
+    border-left: 0 !important;
+    border-top: .125rem solid #001022 !important;
+    background: white !important;
 }
 
 #pipeline-box .table-box .table-viewPort tr.totals .cell-color {
-    box-shadow: none;
-    background: #001022;
-    color: white;
+    box-shadow: none !important;
+    background: #001022 !important;
+    color: white !important;
 }
 
 .stackedBarChart .stackedBarChart.inner .bar.highlight {
-    background: #ffcb00;
-    box-shadow: none;
+    background: #ffcb00 !important;
+    box-shadow: none !important;
 }
 .stackedBarChart .stackedBarChart.inner .bar {
-    box-shadow: none;
-    background: white;
+    box-shadow: none !important;
+    background: white !important;
 }
 
 #pipeline-box .table-box tr td .duration {
-    border-radius: 0;
+    border-radius: 0 !important;
 }
 
 .changeset-box.no-changes {
-    border-radius: 0;
+    border-radius: 0 !important;
 }
 
 .jobsTable .stage-start-time .date {
-    background-color: #ffcb00;
+    background-color: #ffcb00 !important;
 }
 
 .jobsTable .jobName .badge {
@@ -162,11 +163,11 @@ div.pane-header {
 
 #description-link {
     display: inline-block;
-    border: 0;
     box-sizing: border-box;
     padding: .75rem .5rem;
     font-weight: 700;
-    background-color: #ffcb00;
+    background: #fffefa;
+    border: .1rem solid #001022;
     color: #001022;
 }
 
@@ -174,8 +175,6 @@ div.pane-header {
 #jenkins .jenkins-config table .bottom-sticker .yui-button.primary button, #jenkins .jenkins-config table #bottom-sticker .yui-button.primary button {
     display: inline-block;
     border: 0;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
     min-width: 7.25rem;
     text-align: center;
     text-decoration: none;
@@ -183,6 +182,7 @@ div.pane-header {
     font-weight: 700;
     background-color: #ffcb00;
     color: #001022;
+    border-radius: 0;
 }
 
 #jenkins .yui-button.primary .btn:hover, #jenkins .yui-button.primary button:hover, #jenkins .yui-button.primary .hover {
@@ -197,6 +197,7 @@ div.pane-header {
     border: .1rem solid #001022;
     line-height: 2.2rem;
     cursor: pointer;
+    border-radius: 0;
 }
 
 .manage-option:hover {
@@ -236,3 +237,4 @@ div.pane-header {
     background: #001022;
     color: white !important;
 }
+
