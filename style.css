@@ -34,6 +34,14 @@ html, body, table, form, input, td, th, p, textarea, select,
   border-top: .375rem solid #ffcb00;
 }
 
+#header .login {
+    float: right;
+}
+
+#header .searchbox, #header .login {
+    float: left;
+}
+
 #jenkins-head-icon {
     display: none;
 }
