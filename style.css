@@ -17,6 +17,17 @@ html, body, table, form, input, td, th, p, textarea, select,
     display:block;
 }
 
+#search-box {
+    box-shadow: none;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    border-bottom: 1px solid #001022;
+    border-radius: 0;
+    background: white;
+    color: #001022;
+}
+
 #header {
   background-color: white;
   height: 50px;
