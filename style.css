@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,400i,500,500i,600,700&amp;subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Martel:300,400,700,800');
+html {
+    font-family: Raleway,Arial,Sans-serif;
+    font-size: 16px;
+    color: #001022;
+}
+
+
 #breadcrumbs {
     list-style-type: none;
     background: #ffcb00;
@@ -19,6 +28,7 @@
 }
 #jenkins-name-icon {
     content:url("https://img.loccitane.com/ocms/img/occ2016/logo.svg");
+    bottom: 0;
 }
 
 #jenkins-home-link {
@@ -90,6 +100,10 @@ div.pane-header {
   background-color: white;
   padding: 6px 4px;
   white-space: nowrap;
+}
+
+#side-panel {
+    border-right: .1rem solid #9a9a9a;
 }
 
 #side-panel .pane-frame:hover, #side-panel .pane-frame.mouseover {
