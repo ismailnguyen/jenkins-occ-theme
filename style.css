@@ -191,7 +191,8 @@ div.pane-header {
 }
 
 #jenkins .yui-button .btn, #jenkins .yui-button button,
-#jenkins .jenkins-config table .bottom-sticker .yui-button button, #jenkins .jenkins-config table #bottom-sticker .yui-button button {
+#jenkins .jenkins-config table .bottom-sticker .yui-button button, #jenkins .jenkins-config table #bottom-sticker .yui-button button,
+#yui-gen4-button {
     background: #fffefa;
     border: .1rem solid #001022;
     line-height: 2.2rem;
@@ -202,4 +203,36 @@ div.pane-header {
     border: .1rem solid #001022;
     border-radius: 0;
     background-color: #fafafa;
+}
+
+.setting-input {
+    border-radius: 0;
+    height: 3rem;
+    border: .0625rem solid #ccc;
+    padding: .5rem;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: inherit;
+}
+
+.setting-input:focus {
+    border: .0625rem solid #ccc;
+    border-width: .2rem;
+}
+
+.jenkins-config-widgets .form-config.tabBarFrame .config-section-activators {
+    background: white;
+}
+
+.jenkins-config-widgets .form-config.tabBarFrame .tabBar .tab.active {
+    background: white;
+    border-right: 0;
+    border-left: 0;
+    border-top: 0;
+    border-bottom: .125rem solid #001022;
+}
+
+.jenkins-config-widgets .form-config.tabBarFrame .tabBar .tab:hover {
+    background: #001022;
+    color: white !important;
 }
