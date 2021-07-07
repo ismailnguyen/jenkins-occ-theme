@@ -106,5 +106,100 @@ div.pane-header {
 }
 
 #side-panel .pane-frame:hover, #side-panel .pane-frame.mouseover {
-  border: solid 5px #ffcb00;
+      border: solid 5px #ffcb00;
+}
+
+#jenkins .yui-button.primary .btn, #jenkins .yui-button.primary button {
+    background: #fffefa;
+    border: .1rem solid #001022;
+    color: #001022;
+}
+
+#pipeline-box .table-box .table-viewPort {
+    box-shadow: none;
+    border: none;
+}
+
+#pipeline-box .table-box tr.header th {
+    border-bottom: .125rem solid #001022;
+    border-bottom: 0;
+    border-right: 0;
+    border-left: 0;
+    border-top: .125rem solid #001022;
+    background: white;
+}
+
+#pipeline-box .table-box .table-viewPort tr.totals .cell-color {
+    box-shadow: none;
+    background: #001022;
+    color: white;
+}
+
+.stackedBarChart .stackedBarChart.inner .bar.highlight {
+    background: #ffcb00;
+    box-shadow: none;
+}
+.stackedBarChart .stackedBarChart.inner .bar {
+    box-shadow: none;
+    background: white;
+}
+
+#pipeline-box .table-box tr td .duration {
+    border-radius: 0;
+}
+
+.changeset-box.no-changes {
+    border-radius: 0;
+}
+
+.jobsTable .stage-start-time .date {
+    background-color: #ffcb00;
+}
+
+.jobsTable .jobName .badge {
+    border-radius: 0;
+}
+
+#description-link {
+    display: inline-block;
+    border: 0;
+    box-sizing: border-box;
+    padding: .75rem .5rem;
+    font-weight: 700;
+    background-color: #ffcb00;
+    color: #001022;
+}
+
+#jenkins .yui-button.primary .btn, #jenkins .yui-button.primary button,
+#jenkins .jenkins-config table .bottom-sticker .yui-button.primary button, #jenkins .jenkins-config table #bottom-sticker .yui-button.primary button {
+    display: inline-block;
+    border: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    min-width: 7.25rem;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    background-color: #ffcb00;
+    color: #001022;
+}
+
+#jenkins .yui-button.primary .btn:hover, #jenkins .yui-button.primary button:hover, #jenkins .yui-button.primary .hover {
+    background-color: #ffe788;
+    border: none;
+}
+
+#jenkins .yui-button .btn, #jenkins .yui-button button,
+#jenkins .jenkins-config table .bottom-sticker .yui-button button, #jenkins .jenkins-config table #bottom-sticker .yui-button button {
+    background: #fffefa;
+    border: .1rem solid #001022;
+    line-height: 2.2rem;
+    cursor: pointer;
+}
+
+.manage-option:hover {
+    border: .1rem solid #001022;
+    border-radius: 0;
+    background-color: #fafafa;
 }
