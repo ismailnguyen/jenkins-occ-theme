@@ -17,7 +17,7 @@ html, body, table, form, input, td, th, p, textarea, select,
 }
 
 #breadcrumbs LI A:link, #breadcrumbs LI A:visited {
-    color: #001022;
+    color: #001022 !important;
 }
 
 #search-box {
