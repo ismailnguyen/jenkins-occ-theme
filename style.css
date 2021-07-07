@@ -14,6 +14,10 @@
   border-top: .375rem solid #ffcb00;
 }
 
+#jenkins-head-icon {
+    display: none;
+}
+
 
 #jenkins-home-link {
   position: absolute;
